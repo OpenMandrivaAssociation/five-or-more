@@ -35,7 +35,7 @@ Play as long as possible, and be #1 in the High Scores!
 %install
 %makeinstall_std
 
-%find_lang %{name} --with-gnome --with-help
+%find_lang %{name} --with-gnome
 
 %files -f %{name}.lang
 %license COPYING
