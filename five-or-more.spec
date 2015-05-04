@@ -1,8 +1,8 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		five-or-more
-Version:	3.14.1
-Release:	%mkrel 3
+Version:	3.16.1
+Release:	1
 Summary:	GNOME Five or More game
 License:	GPLv2+ and GFDL
 Group:		Games/Puzzles
@@ -29,7 +29,7 @@ Play as long as possible, and be #1 in the High Scores!
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
