@@ -3,7 +3,7 @@
 
 Name:		five-or-more
 Version:	3.18.0
-Release:	1
+Release:	2
 Summary:	GNOME Five or More game
 License:	GPLv2+ and GFDL
 Group:		Games/Puzzles
