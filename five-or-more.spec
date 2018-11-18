@@ -31,7 +31,7 @@ Play as long as possible, and be #1 in the High Scores!
 %prep
 %setup -q
 
-build
+%build
 %meson
 %meson_build
 
