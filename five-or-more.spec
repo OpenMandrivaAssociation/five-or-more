@@ -2,8 +2,8 @@
 %define _disable_rebuild_configure 1
 
 Name:		five-or-more
-Version:	3.18.0
-Release:	2
+Version:	3.30.0
+Release:	1
 Summary:	GNOME Five or More game
 License:	GPLv2+ and GFDL
 Group:		Games/Puzzles
@@ -12,9 +12,11 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 BuildRequires:	pkgconfig(gmodule-2.0)
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
+BuildRequires:	pkgconfig(libgnome-games-support-1)
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
+BuildRequires:  meson
 Obsoletes:	glines
 Obsoletes:	glines-extra-data
 # For help
@@ -30,11 +32,11 @@ Play as long as possible, and be #1 in the High Scores!
 %setup -q
 
 %build
-%configure
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meson_install
 
 %find_lang %{name} --with-gnome
 
@@ -47,5 +49,5 @@ Play as long as possible, and be #1 in the High Scores!
 %{_iconsdir}/*/*/apps/%{name}.*
 %{_iconsdir}/*/*/apps/%{name}-symbolic.svg
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/appdata/%{name}.appdata.xml
+%{_datadir}/metainfo/%{name}.appdata.xml
 
