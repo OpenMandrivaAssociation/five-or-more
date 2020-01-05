@@ -1,6 +1,2 @@
-removed_sources:
-  five-or-more-3.14.1.tar.xz: a4b9eaab2a66844a7bd11b857db28b856754086c
-  five-or-more-3.16.1.tar.xz: 4ec7a7661a89ba3771b38f01b65bcaefaf0e596a
-  five-or-more-3.18.0.tar.xz: 987a6f3976b3d82322183bda9207cd7ae96022b5
 sources:
-  five-or-more-3.30.0.tar.xz: bc3a59862b8909951e6ba046e9d0ab829c1126e5
+  five-or-more-3.32.0.tar.xz: 2d3c1aa35202de06d38402971f740d5093d0ecf4
