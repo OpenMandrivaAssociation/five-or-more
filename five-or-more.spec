@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		five-or-more
-Version:	3.30.0
+Version:	3.32.0
 Release:	1
 Summary:	GNOME Five or More game
 License:	GPLv2+ and GFDL
@@ -17,6 +17,9 @@ BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:  meson
+BuildRequires:  vala
+BuildRequires:  vala-devel
+BuildRequires:  librsvg-vala-devel
 Obsoletes:	glines
 Obsoletes:	glines-extra-data
 # For help
@@ -43,11 +46,11 @@ Play as long as possible, and be #1 in the High Scores!
 %files -f %{name}.lang
 %doc COPYING
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
+%{_datadir}/applications/org.gnome.five-or-more.desktop
 %{_datadir}/%{name}
 %{_datadir}/glib-2.0/schemas/org.gnome.%{name}.gschema.xml
-%{_iconsdir}/*/*/apps/%{name}.*
-%{_iconsdir}/*/*/apps/%{name}-symbolic.svg
+%{_iconsdir}/*/*/apps/org.gnome.five-or-more.*
+%{_iconsdir}/*/*/apps/org.gnome.five-or-more-symbolic.svg
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/metainfo/%{name}.appdata.xml
+%{_datadir}/metainfo/org.gnome.five-or-more.appdata.xml
 
