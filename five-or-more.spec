@@ -19,6 +19,7 @@ BuildRequires:	libxml2-utils
 BuildRequires:  meson
 BuildRequires:  vala
 BuildRequires:  vala-devel
+BuildRequires:  librsvg-vala-devel
 Obsoletes:	glines
 Obsoletes:	glines-extra-data
 # For help
