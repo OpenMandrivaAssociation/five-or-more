@@ -46,11 +46,11 @@ Play as long as possible, and be #1 in the High Scores!
 %files -f %{name}.lang
 %doc COPYING
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
+%{_datadir}/applications/org.gnome.five-or-more.desktop
 %{_datadir}/%{name}
 %{_datadir}/glib-2.0/schemas/org.gnome.%{name}.gschema.xml
-%{_iconsdir}/*/*/apps/%{name}.*
-%{_iconsdir}/*/*/apps/%{name}-symbolic.svg
+%{_iconsdir}/*/*/apps/org.gnome.five-or-more.*
+%{_iconsdir}/*/*/apps/org.gnome.five-or-more-symbolic.svg
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/metainfo/%{name}.appdata.xml
+%{_datadir}/metainfo/org.gnome.five-or-more.appdata.xml
 
