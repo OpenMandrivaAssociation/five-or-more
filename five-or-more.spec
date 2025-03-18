@@ -53,4 +53,5 @@ Play as long as possible, and be #1 in the High Scores!
 %{_iconsdir}/*/*/apps/org.gnome.five-or-more-symbolic.svg
 %{_mandir}/man6/%{name}.6*
 %{_datadir}/metainfo/org.gnome.five-or-more.metainfo.xml
+%{_datadir}/dbus-1/services/org.gnome.five-or-more.service
 
