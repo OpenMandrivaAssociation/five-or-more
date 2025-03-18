@@ -2,15 +2,15 @@
 %define _disable_rebuild_configure 1
 
 Name:		five-or-more
-Version:	3.32.3
-Release:	4
+Version:	48.0
+Release:	1
 Summary:	GNOME Five or More game
 License:	GPLv2+ and GFDL
 Group:		Games/Puzzles
 URL:		https://wiki.gnome.org/Five_or_more
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(gmodule-2.0)
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:	pkgconfig(libgnome-games-support-1)
 BuildRequires:	intltool
