@@ -32,7 +32,7 @@ or more objects of the same color and shape causing them to disappear.
 Play as long as possible, and be #1 in the High Scores!
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %meson
@@ -52,5 +52,5 @@ Play as long as possible, and be #1 in the High Scores!
 %{_iconsdir}/*/*/apps/org.gnome.five-or-more.*
 %{_iconsdir}/*/*/apps/org.gnome.five-or-more-symbolic.svg
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/metainfo/org.gnome.five-or-more.appdata.xml
+%{_datadir}/metainfo/org.gnome.five-or-more.metainfo.xml
 
