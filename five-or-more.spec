@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		five-or-more
-Version:	48.0
+Version:	48.1
 Release:	1
 Summary:	GNOME Five or More game
 License:	GPLv2+ and GFDL
